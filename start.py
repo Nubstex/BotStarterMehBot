@@ -14,5 +14,6 @@ key = 'TOKEN'
 value = os.getenv('TOKEN')
 print("Value of 'TOKEN' environment variable :", value) 
 
+pip install ffmpeg-python
 os.system('python run.py')
 print("end")
