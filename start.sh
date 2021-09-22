@@ -1,3 +1,5 @@
-@echo "Process Started"
-git clone https://github.com/Nubstex/MusicBot.git -b -review
-dir
+
+git clone https://github.com/Nubstex/Nubot-code.git -b -master
+cd MusicBot
+git checkout review
+. run.sh
