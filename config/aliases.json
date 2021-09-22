@@ -1,5 +1,7 @@
 {
     "play": ["p"],
-    "skip": ["s"],
-    "queue": ["q"]
+    "skip": ["s", "fs","next"],
+    "queue": ["q","view","list","l"],
+    "summon": ["join"],
+    "resume": ["start"]
 }
