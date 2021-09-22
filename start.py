@@ -3,6 +3,6 @@ import subprocess
 print("start")
 os.system("chmod +rwx -v ./start.sh")
 subprocess.call(['sh', './start.sh'])
-os.system("chmod +rwx -v ./Nubot-code/run.sh")
-subprocess.call(['sh', './Nubot-code/run.sh'])
+os.system("chmod +rwx -v ./Nubot-code/run.py")
+python3 /Nubot-code/run.py
 print("end")
