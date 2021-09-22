@@ -19,9 +19,8 @@ import codecs
 import shutil
 import logging
 import configparser
-import boto
 
-from boto.s3.connection import S3Connection
+
 from .exceptions import HelpfulError
 from .constants import VERSION as BOTVERSION
 
