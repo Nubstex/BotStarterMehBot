@@ -14,8 +14,6 @@ key = 'TOKEN'
 value = os.getenv('TOKEN')
 print("Value of 'TOKEN' environment variable :", value) 
 
-my_env = os.environ.copy()
-my_env["PATH"] = "/usr/bin/env:" + my_env["PATH"]
-subprocess.Popen('run.py', env=my_env)
+os.system('python run.py')
 
 print("end")
