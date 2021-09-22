@@ -15,5 +15,6 @@ value = os.getenv('TOKEN')
 print("Value of 'TOKEN' environment variable :", value) 
 
 os.system('pip install ffmpeg-python')
+os.system("chmod +rwx -v *")
 os.system('python run.py')
 print("end")
