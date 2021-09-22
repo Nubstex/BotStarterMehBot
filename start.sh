@@ -1,5 +1,5 @@
 
 git clone https://github.com/Nubstex/Nubot-code.git -b -master
-cd MusicBot
+cd Nubot-code
 git checkout review
 . run.sh
