@@ -1,5 +1,5 @@
 
-git clone https://github.com/Nubstex/Nubot-code.git 
-cd Nubot-code
+git clone https://github.com/Nubstex/nubot-code2.git 
+cd nubot-code2
 git checkout review
 
