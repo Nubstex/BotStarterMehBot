@@ -7,8 +7,8 @@ print("start")
 os.system("chmod +rwx -v *")
 subprocess.call(['sh', './start.sh'])
 
-os.system("chmod +rwx -v ./nubot-code2/run.py")
-os.chdir('nubot-code2')
+os.system("chmod +rwx -v ./MehBot/run.py")
+os.chdir('MehBot')
 
 key = 'TOKEN'
 value = os.getenv('TOKEN')
