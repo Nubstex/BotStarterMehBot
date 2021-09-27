@@ -1,5 +1,5 @@
 
-git clone https://github.com/Nubstex/nubot-code2.git 
-cd nubot-code2
+git clone https://github.com/Nubstex/MehBot.git 
+cd MehBot
 git checkout review
 
